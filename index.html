@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Propuesta Estratégica — Frambuesa Design | Popcorn</title>
+<meta name="description" content="Plan de crecimiento integral 360° preparado por Popcorn para Frambuesa Design. De $20M a $100M mensuales.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Instrument+Serif:wght@400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --black:#0A0A0A;--black-2:#111114;--purple:#6B21D6;--purple-deep:#2A0F5C;--purple-soft:#3D1D7A;
+  --cyan:#5EEAD4;--cyan-deep:#0FB39A;--white:#FFFFFF;--gray-100:#F5F5F7;--gray-300:#C4C4CF;
+  --gray-500:#8E8E9C;--gray-700:#3A3A44;--gray-900:#1A1A20;--red:#EF4444;--orange:#F59E0B;--green:#10B981;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;background:var(--black);color:var(--white);line-height:1.5;-webkit-font-smoothing:antialiased}
+/* Acento serif OFICIAL en versión UPRIGHT (sin cursiva, por pedido) */
+.serif-accent{font-family:'Instrument Serif',serif;font-style:normal;font-weight:400;color:var(--cyan)}
+.container{max-width:1200px;margin:0 auto;padding:0 32px}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:var(--cyan);margin-bottom:24px;display:inline-block}
+h1,h2,h3,h4{font-weight:800;letter-spacing:-0.02em;line-height:1.05}
+h1{font-size:clamp(38px,5.2vw,68px)}
+h2{font-size:clamp(28px,3.6vw,46px);margin-bottom:18px}
+h3{font-size:18px;font-weight:700;letter-spacing:-0.01em;line-height:1.3}
+p{color:var(--gray-300);font-size:15px;line-height:1.6}
+a{color:inherit;text-decoration:none}
+.lead{font-size:17px;line-height:1.65}
+
+/* NAV */
+.nav{position:sticky;top:0;z-index:100;background:rgba(10,10,10,0.85);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,0.06)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:18px 32px;max-width:1400px;margin:0 auto}
+.logo{width:78px;height:78px;flex-shrink:0;display:block;background-image:url("data:image/png;base64,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");background-size:contain;background-repeat:no-repeat;background-position:center}
+.nav-links{display:flex;gap:30px}
+.nav-links a{font-size:13.5px;color:var(--gray-300);font-weight:500;transition:color 0.2s}
+.nav-links a:hover{color:var(--cyan)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:999px;font-weight:600;font-size:14px;border:1px solid transparent;cursor:pointer;transition:transform 0.15s,background 0.2s}
+.btn:hover{transform:translateY(-1px)}
+.btn-primary{background:var(--purple);color:var(--white)}
+.btn-primary:hover{background:#7d2ef0}
+.btn-cyan{background:var(--cyan);color:var(--black)}
+.btn-cyan:hover{background:#7df3df}
+.btn-ghost{background:transparent;border-color:rgba(255,255,255,0.2);color:var(--white)}
+.btn-ghost:hover{border-color:var(--white)}
+@media(max-width:880px){.nav-links{display:none}}
+
+/* HERO */
+.hero{position:relative;background:linear-gradient(180deg,var(--purple-deep) 0%,var(--purple) 100%);padding:118px 0 96px;overflow:hidden}
+.hero::before{content:"";position:absolute;right:-100px;top:50%;transform:translateY(-50%);width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(94,234,212,0.15) 0%,transparent 70%);pointer-events:none}
+.hero-rings{position:absolute;right:60px;top:50%;transform:translateY(-50%);width:520px;height:520px;opacity:0.25;pointer-events:none}
+.hero-rings::before,.hero-rings::after{content:"";position:absolute;inset:0;border:1px solid rgba(255,255,255,0.4);border-radius:50%}
+.hero-rings::after{inset:80px}
+.hero-rings .ring-3{position:absolute;inset:160px;border:1px solid rgba(255,255,255,0.4);border-radius:50%}
+.hero-rings .ring-dot{position:absolute;left:50%;top:50%;width:80px;height:80px;border-radius:50%;background:rgba(94,234,212,0.4);transform:translate(-50%,-50%);filter:blur(2px)}
+.hero-content{position:relative;z-index:1;max-width:840px}
+.pill{display:inline-flex;align-items:center;gap:10px;padding:8px 18px;border-radius:999px;background:rgba(94,234,212,0.12);border:1px solid rgba(94,234,212,0.3);font-size:11px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:var(--cyan);margin-bottom:34px}
+.pill::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--cyan)}
+.hero h1{margin-bottom:24px;color:var(--white)}
+.hero-bajada{font-size:17px;color:rgba(255,255,255,0.88);max-width:600px;margin-bottom:32px;line-height:1.65}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap}
+
+/* META */
+.meta{background:linear-gradient(180deg,var(--purple) 0%,#3a1399 100%);padding:38px 0;border-top:1px solid rgba(255,255,255,0.08)}
+.meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:28px}
+.meta-item .meta-label{font-size:10px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:rgba(255,255,255,0.5);margin-bottom:8px}
+.meta-item .meta-value{font-size:14.5px;font-weight:600;color:var(--white)}
+
+/* SECTIONS */
+.section{padding:84px 0}
+.section-dark{background:var(--black)}
+.section-darker{background-color:var(--black-2);background-image:radial-gradient(circle at 20% 10%,rgba(107,33,214,0.08) 0%,transparent 40%),linear-gradient(rgba(255,255,255,0.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.035) 1px,transparent 1px);background-size:auto,56px 56px,56px 56px}
+.section-purple{background:linear-gradient(180deg,var(--purple) 0%,var(--purple-soft) 100%)}
+.section-purple-deep{background-color:var(--purple-deep);background-image:linear-gradient(rgba(255,255,255,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.04) 1px,transparent 1px);background-size:56px 56px,56px 56px}
+.section-light{background:var(--gray-100);color:var(--black)}
+.section-light p{color:var(--gray-700)}
+.section-light h2,.section-light h3,.section-light h4{color:var(--purple-deep)}
+.section-light .eyebrow{color:var(--purple)}
+.section-header{max-width:680px;margin-bottom:44px}
+.section-header.center{margin-left:auto;margin-right:auto;text-align:center}
+.section-header h2{color:inherit}
+.section-header p{font-size:16px;margin-top:8px}
+
+/* QUIÉNES SON — entendimiento */
+.understand-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-top:8px}
+.understand-card{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:20px;padding:30px}
+.understand-card .uc-label{font-size:11px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--cyan);margin-bottom:14px;display:block}
+.understand-card h3{color:var(--white);margin-bottom:10px;font-size:18px}
+.understand-card p{font-size:14px;line-height:1.6;color:var(--gray-300)}
+.reframe{margin-top:36px;background:linear-gradient(135deg,#0a3833 0%,var(--purple-deep) 100%);border:1px solid rgba(94,234,212,0.25);border-radius:24px;padding:40px}
+.reframe span{font-family:'Instrument Serif',serif;font-style:normal;color:var(--cyan);font-size:15px;letter-spacing:0.08em;text-transform:uppercase;display:block;margin-bottom:12px}
+.reframe p{font-size:22px;line-height:1.5;color:#fff;font-weight:500;max-width:880px}
+.reframe strong{color:var(--cyan)}
+
+/* SCORE / DIAGNÓSTICO */
+.score-card{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:24px;padding:44px;display:grid;grid-template-columns:auto auto 1fr;align-items:center;gap:40px;margin-bottom:32px}
+@media(max-width:760px){.score-card{grid-template-columns:1fr;gap:20px;padding:32px}}
+.score-big{font-size:52px;font-weight:800;line-height:0.9;letter-spacing:-0.04em;color:var(--white)}
+.score-big small{font-size:18px;color:var(--gray-500);font-weight:600}
+.score-label{font-size:10px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:var(--gray-500);margin-top:8px;display:block}
+.score-letter{width:72px;height:72px;border-radius:18px;background:var(--orange);display:flex;align-items:center;justify-content:center;font-size:32px;font-weight:800;color:var(--white)}
+.score-card h3{margin-bottom:8px;color:var(--white)}
+.dimensions{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.dim-card{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:18px;padding:26px}
+.dim-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px}
+.dim-head h4{font-size:15.5px;font-weight:600;color:var(--white)}
+.dim-score{font-size:24px;font-weight:800;letter-spacing:-0.02em}
+.dim-bar{height:3px;background:rgba(255,255,255,0.08);border-radius:2px;overflow:hidden;margin-bottom:14px}
+.dim-bar-fill{height:100%;border-radius:2px}
+.dim-card p{font-size:13.5px;line-height:1.5}
+.score-low{color:var(--red)}.score-low~.dim-bar .bar-low,.bar-low{background:var(--red)}
+.score-mid{color:var(--orange)}.bar-mid{background:var(--orange)}
+.score-high{color:var(--cyan)}.bar-high{background:var(--cyan)}
+
+/* HALLAZGOS */
+.hallazgos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.hallazgo-card{background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.12);border-radius:20px;padding:26px;backdrop-filter:blur(8px)}
+.hallazgo-icon{font-size:26px;margin-bottom:14px;display:block}
+.hallazgo-card h3{font-size:15.5px;margin-bottom:8px;color:var(--white)}
+.hallazgo-card p{font-size:13.5px;line-height:1.6;color:rgba(255,255,255,0.85)}
+.hallazgo-card .big{font-size:30px;font-weight:800;color:var(--cyan);letter-spacing:-0.03em;display:block;margin-bottom:6px}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+  <div class="nav-inner">
+    <div class="logo" role="img" aria-label="Popcorn"></div>
+    <nav class="nav-links">
+      <a href="#negocio">El negocio</a>
+      <a href="#diagnostico">Diagnóstico</a>
+      <a href="#mercado">Mercado</a>
+      <a href="#estrategia">Estrategia</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#inversion">Inversión</a>
+    </nav>
+    <a href="#contacto" class="btn btn-primary">Hablemos</a>
+  </div>
+</header>
+
+<!-- HERO / PORTADA -->
+<section class="hero">
+  <div class="hero-rings"><div class="ring-3"></div><div class="ring-dot"></div></div>
+  <div class="container hero-content">
+    <div class="pill">Propuesta estratégica integral · Confidencial</div>
+    <h1>El plan para multiplicar por 5 a <span class="serif-accent">Frambuesa Design</span> sin multiplicar por 5 la inversión.</h1>
+    <p class="hero-bajada">No te falta demanda: ya generás 10.000 consultas por mes. Te falta el sistema para capturarla. Esta es la hoja de ruta para convertir ese volumen en un negocio de ~$100M mensuales — construyendo la máquina comercial, de marca y de canales que hoy todavía no existe.</p>
+    <div class="hero-cta">
+      <a href="#estrategia" class="btn btn-cyan">Ver la estrategia &rarr;</a>
+      <a href="#diagnostico" class="btn btn-ghost">Ver el diagnóstico</a>
+    </div>
+  </div>
+</section>
+
+<!-- META -->
+<section class="meta">
+  <div class="container">
+    <div class="meta-grid">
+      <div class="meta-item"><div class="meta-label">Preparada para</div><div class="meta-value">Frambuesa Design</div></div>
+      <div class="meta-item"><div class="meta-label">Preparada por</div><div class="meta-value">Popcorn</div></div>
+      <div class="meta-item"><div class="meta-label">Fecha</div><div class="meta-value">Junio 2026</div></div>
+      <div class="meta-item"><div class="meta-label">Válida hasta</div><div class="meta-value">11 de julio de 2026</div></div>
+      <div class="meta-item"><div class="meta-label">Contacto</div><div class="meta-value">sol@somospopcorn.com</div></div>
+    </div>
+  </div>
+</section>
+<!-- QUIÉNES SON USTEDES -->
+<section id="negocio" class="section section-darker">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Antes de proponer, entendimos</span>
+      <h2>Quiénes son <span class="serif-accent">ustedes</span></h2>
+      <p>Acompañar un negocio empieza por entenderlo a fondo. Esto es lo que vemos cuando miramos a Frambuesa Design — el producto, el momento y la oportunidad real.</p>
+    </div>
+    <div class="understand-grid">
+      <div class="understand-card">
+        <span class="uc-label">El negocio</span>
+        <h3>Decoración a medida con instalación nacional</h3>
+        <p>Producen prácticamente cualquier diseño, adaptado a las medidas del cliente, e instalan en todo el país. Tienen ecommerce propio, showroom físico en Olivos y una comunidad de 185K en Instagram. Hoy facturan cerca de $20M por mes.</p>
+      </div>
+      <div class="understand-card">
+        <span class="uc-label">El producto</span>
+        <h3>Un activo visual y emocional poco común</h3>
+        <p>Vinilos, murales, empapelados y piezas premium en resina que producen un “antes y después” de altísimo impacto. Es compartible por naturaleza, tiene ticket elevado y genera contenido orgánico sin esfuerzo. Pocos rubros tienen un producto tan fotogénico.</p>
+      </div>
+      <div class="understand-card">
+        <span class="uc-label">El momento</span>
+        <h3>Un techo autoimpuesto, no de mercado</h3>
+        <p>Quieren llevar el negocio de $20M a ~$100M mensuales y sienten que el potencial es mucho mayor. Tienen razón: el mercado argentino es enorme y Frambuesa hoy captura apenas una fracción mínima. El límite no está afuera.</p>
+      </div>
+      <div class="understand-card">
+        <span class="uc-label">Lo que buscan</span>
+        <h3>Un socio, no un proveedor de tareas</h3>
+        <p>No quieren que alguien “les maneje las redes”. Quieren una agencia que se involucre en el negocio, ayude a decidir y empuje el crecimiento de forma sostenida. Esa es exactamente la forma en que trabajamos.</p>
+      </div>
+    </div>
+    <div class="reframe">
+      <span>El insight que ordena todo</span>
+      <p>Frambuesa no tiene un problema de marketing. Tiene un negocio que funciona, pero <strong>opera sin el sistema que convierte su demanda en ventas.</strong> 10.000 personas levantan la mano cada mes y 9.960 se van sin comprar. Antes de invertir más en atraer, hay que construir la máquina para capturar.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DIAGNÓSTICO -->
+<section id="diagnostico" class="section section-dark">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Diagnóstico</span>
+      <h2>Un negocio fuerte operando muy por debajo de su <span class="serif-accent">potencial</span></h2>
+      <p>Evaluamos seis dimensiones del negocio — no solo marketing — sobre lo que pudimos verificar del sitio, las redes, la competencia y los datos que compartieron. El puntaje no castiga: mide cuánto valor está hoy sobre la mesa.</p>
+    </div>
+
+    <div class="score-card">
+      <div>
+        <div class="score-big">42<small>/100</small></div>
+        <span class="score-label">Puntaje global del negocio</span>
+      </div>
+      <div class="score-letter">D</div>
+      <div>
+        <h3>Mucho valor latente, poca captura</h3>
+        <p>El producto y la comunidad están en nivel A. El sistema que los rodea — conversión, canales, marca, datos — está en nivel D. La buena noticia: cerrar esa brecha no requiere reinventar el negocio, sino construir lo que falta. Ahí está el 5x.</p>
+      </div>
+    </div>
+
+    <div class="dimensions">
+      <div class="dim-card">
+        <div class="dim-head"><h4>Conversión &amp; embudo comercial</h4><span class="dim-score score-low">28</span></div>
+        <div class="dim-bar"><div class="dim-bar-fill bar-low" style="width:28%"></div></div>
+        <p>10.000 consultas → 40 ventas = 0,4% de cierre, frente a ~1,4% de referencia en ecommerce de hogar. La venta depende de consulta manual; no hay configurador de medidas→precio ni proceso comercial estructurado.</p>
+      </div>
+      <div class="dim-card">
+        <div class="dim-head"><h4>Generación de demanda &amp; canales</h4><span class="dim-score score-low">30</span></div>
+        <div class="dim-bar"><div class="dim-bar-fill bar-low" style="width:30%"></div></div>
+        <p>~100% de la pauta en Meta campañas de mensajes, sin cambios hace más de un año. Cero presencia en Google (donde está la demanda activa) y cero SEO. Un solo canal sostiene todo el negocio.</p>
+      </div>
+      <div class="dim-card">
+        <div class="dim-head"><h4>Canal B2B / profesional</h4><span class="dim-score score-low">22</span></div>
+        <div class="dim-bar"><div class="dim-bar-fill bar-low" style="width:22%"></div></div>
+        <p>Arquitectos, interioristas, constructoras y desarrollos son el segmento de mayor ticket y recompra. Hoy no existe ningún canal para captarlos: ni sección web, ni catálogo, ni programa. Ningún competidor del rubro lo hace bien.</p>
+      </div>
+      <div class="dim-card">
+        <div class="dim-head"><h4>Marca &amp; posicionamiento</h4><span class="dim-score score-mid">45</span></div>
+        <div class="dim-bar"><div class="dim-bar-fill bar-mid" style="width:45%"></div></div>
+        <p>Sin manual de marca ni sistema visual: la marca comunica qué vende, no por qué Frambuesa. La identidad es todavía inconsistente entre la web y las redes, sin lineamientos que la unifiquen.</p>
+      </div>
+      <div class="dim-card">
+        <div class="dim-head"><h4>Contenido &amp; producción audiovisual</h4><span class="dim-score score-low">38</span></div>
+        <div class="dim-bar"><div class="dim-bar-fill bar-low" style="width:38%"></div></div>
+        <p>El “antes/después” es el formato más potente del rubro y tienen el material crudo, pero se publica producto terminado sin dirección creativa. Instalaciones, procesos y testimonios — oro audiovisual — quedan sin capturar.</p>
+      </div>
+      <div class="dim-card">
+        <div class="dim-head"><h4>Ecommerce, datos &amp; escalabilidad</h4><span class="dim-score score-mid">48</span></div>
+        <div class="dim-bar"><div class="dim-bar-fill bar-mid" style="width:48%"></div></div>
+        <p>Ya están sobre Shopify (la plataforma correcta), pero sin explotar todo su potencial de conversión, datos y escalabilidad. Hay margen para ordenar la experiencia de compra y preparar el negocio para crecer.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HALLAZGOS -->
+<section class="section section-purple">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow" style="color:rgba(255,255,255,0.7)">Hallazgos clave</span>
+      <h2 style="color:#fff">Lo que encontramos</h2>
+      <p style="color:rgba(255,255,255,0.85)">Seis observaciones concretas, con datos. Cada una es, a la vez, un punto a resolver y una palanca de crecimiento.</p>
+    </div>
+    <div class="hallazgos-grid">
+      <div class="hallazgo-card">
+        <span class="big">0,4%</span>
+        <h3>El embudo pierde 9.960 consultas por mes</h3>
+        <p>De 10.000 consultas, solo 40 terminan en venta. La demanda ya existe y está pagada — se fuga adentro del proceso, no en la atracción.</p>
+      </div>
+      <div class="hallazgo-card">
+        <span class="hallazgo-icon">📣</span>
+        <h3>Todo el negocio cuelga de un solo canal</h3>
+        <p>~100% de la inversión en Meta “mensajes”, sin cambios en más de un año. Cero Google, cero SEO. Sin diversificación, no hay escala sostenible.</p>
+      </div>
+      <div class="hallazgo-card">
+        <span class="big">185K</span>
+        <h3>Una comunidad enorme usada como folleto</h3>
+        <p>Lideran la comunidad del rubro, pero esa audiencia no se está usando como activo de retargeting ni de conversión. Es el mejor público del rubro, dormido.</p>
+      </div>
+      <div class="hallazgo-card">
+        <span class="hallazgo-icon">💼</span>
+        <h3>El canal de mayor ticket está en cero</h3>
+        <p>Arquitectos e interioristas compran más caro y vuelven. Hoy no hay nada para captarlos — y es justamente la palanca matemática para llegar a $100M.</p>
+      </div>
+      <div class="hallazgo-card">
+        <span class="hallazgo-icon">🎨</span>
+        <h3>Marca sin sistema</h3>
+        <p>Sin manual de marca, con identidad inconsistente entre la web y las redes. Falta el sistema visual que haga a Frambuesa inconfundible y sostenga su ticket alto.</p>
+      </div>
+      <div class="hallazgo-card">
+        <span class="hallazgo-icon">🎬</span>
+        <h3>Oro audiovisual sin dirección</h3>
+        <p>El “antes/después” convierte como ningún otro formato y tienen el material. Falta dirección creativa para transformarlo en ventas, no solo en likes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+/* MERCADO */
+.mkt-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:24px}
+@media(max-width:860px){.mkt-grid{grid-template-columns:1fr}}
+.mkt-card{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:20px;padding:30px}
+.mkt-card h3{color:#fff;margin-bottom:6px}
+.mkt-card .mkt-note{font-size:12px;color:var(--gray-500);margin-bottom:22px}
+.mkt-bar-row{margin-bottom:18px}
+.mkt-bar-row .mbl{display:flex;justify-content:space-between;font-size:13px;color:var(--gray-300);margin-bottom:7px}
+.mkt-bar-row .mbl strong{color:#fff;font-weight:700}
+.mkt-track{height:12px;background:rgba(255,255,255,0.07);border-radius:6px;overflow:hidden}
+.mkt-fill{height:100%;border-radius:6px;background:linear-gradient(90deg,var(--purple),var(--cyan))}
+.share-meter{margin-top:8px}
+.share-meter .sm-track{height:34px;background:rgba(255,255,255,0.07);border-radius:8px;position:relative;overflow:hidden}
+.share-meter .sm-now{position:absolute;left:0;top:0;bottom:0;width:1.2%;min-width:4px;background:var(--orange)}
+.share-meter .sm-target{position:absolute;left:0;top:0;bottom:0;width:6.2%;border-right:2px dashed var(--cyan)}
+.share-meter .sm-legend{display:flex;justify-content:space-between;margin-top:12px;font-size:12.5px}
+.share-meter .sm-legend .now{color:var(--orange);font-weight:700}
+.share-meter .sm-legend .tgt{color:var(--cyan);font-weight:700}
+.comp-chart{margin-top:4px}
+.comp-row{display:grid;grid-template-columns:130px 1fr 54px;align-items:center;gap:14px;margin-bottom:13px}
+.comp-row .cn{font-size:13px;color:var(--gray-300)}
+.comp-row.me .cn{color:#fff;font-weight:700}
+.comp-track{height:14px;background:rgba(255,255,255,0.06);border-radius:7px;overflow:hidden}
+.comp-fill{height:100%;border-radius:7px;background:rgba(255,255,255,0.25)}
+.comp-row.me .comp-fill{background:linear-gradient(90deg,var(--purple),var(--cyan))}
+.comp-row .cv{font-size:13px;color:var(--gray-300);text-align:right;font-weight:600}
+.comp-row.me .cv{color:var(--cyan)}
+/* QUADRANT */
+.quadrant{position:relative;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:20px;padding:30px 30px 30px 54px;margin-top:4px}
+.quad-area{position:relative;aspect-ratio:1.5/1;border-left:1px solid rgba(255,255,255,0.18);border-bottom:1px solid rgba(255,255,255,0.18)}
+.quad-area::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:rgba(255,255,255,0.07)}
+.quad-area::after{content:"";position:absolute;top:50%;left:0;right:0;height:1px;background:rgba(255,255,255,0.07)}
+.qdot{position:absolute;transform:translate(-50%,50%);font-size:11.5px;color:var(--gray-300);white-space:nowrap}
+.qdot::before{content:"";display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--gray-500);margin-right:6px;vertical-align:middle}
+.qdot.me{color:#fff;font-weight:700;font-size:13px;z-index:2}
+.qdot.me::before{background:var(--cyan);width:14px;height:14px;box-shadow:0 0 0 5px rgba(94,234,212,0.18)}
+.qaxis-x{text-align:center;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--gray-500);margin-top:12px}
+.qaxis-y{position:absolute;left:-2px;top:50%;transform:rotate(-90deg) translateX(50%);transform-origin:left center;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--gray-500)}
+.qends{display:flex;justify-content:space-between;font-size:10.5px;color:var(--gray-500);margin-top:4px;text-transform:uppercase;letter-spacing:0.08em}
+/* INSIGHTS */
+.insights{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:24px}
+.insight{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:18px;padding:26px}
+.insight .inum{font-family:'Instrument Serif',serif;font-style:normal;font-size:30px;color:var(--cyan);line-height:1;margin-bottom:12px;display:block}
+.insight h4{color:#fff;font-size:15.5px;margin-bottom:8px}
+.insight p{font-size:13.5px;line-height:1.55}
+.mkt-disclaimer{font-size:12px;color:var(--gray-500);margin-top:28px;border-top:1px solid rgba(255,255,255,0.08);padding-top:18px;max-width:880px}
+
+/* OBJETIVOS */
+.obj-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media(max-width:860px){.obj-grid{grid-template-columns:1fr}}
+.obj-card{border-radius:22px;padding:34px;position:relative;overflow:hidden}
+.obj-1{background:linear-gradient(160deg,var(--purple-soft),var(--purple))}
+.obj-2{background:#0a3833;border:1px solid rgba(94,234,212,0.3)}
+.obj-3{background:#1a0a2e;border:1px solid rgba(167,139,250,0.3)}
+.obj-card .obj-h{font-size:11px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:rgba(255,255,255,0.65);margin-bottom:8px}
+.obj-card h3{color:#fff;font-size:21px;margin-bottom:16px}
+.obj-card ul{list-style:none}
+.obj-card li{font-size:13.5px;color:rgba(255,255,255,0.88);padding-left:20px;position:relative;margin-bottom:11px;line-height:1.5}
+.obj-card li::before{content:"→";position:absolute;left:0;color:var(--cyan);font-weight:700}
+
+/* ESTRATEGIA */
+.callout{background:linear-gradient(135deg,var(--purple-deep) 0%,var(--purple) 100%);color:#fff;padding:34px 38px;border-radius:24px;margin:0 0 44px;font-size:19px;line-height:1.55}
+.callout strong{color:var(--cyan);font-weight:700}
+.strat-list{display:grid;gap:16px}
+.strat-item{display:grid;grid-template-columns:64px 1fr;gap:24px;background:#fff;border:1px solid #E5E5EA;border-radius:18px;padding:28px 30px;align-items:start}
+@media(max-width:680px){.strat-item{grid-template-columns:1fr;gap:12px}}
+.strat-num{width:54px;height:54px;border-radius:14px;background:var(--purple);color:#fff;display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:800}
+.strat-body h3{color:var(--purple-deep);font-size:19px;margin-bottom:8px}
+.strat-body p{color:var(--gray-700);font-size:14.5px;line-height:1.6;margin-bottom:10px}
+.strat-why{display:inline-block;font-size:12.5px;color:var(--purple);background:rgba(107,33,214,0.08);border-radius:8px;padding:7px 13px;font-weight:600}
+
+/* SERVICIOS */
+.serv-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:760px){.serv-grid{grid-template-columns:1fr}}
+.serv-card{background:#fff;border:1px solid #E5E5EA;border-radius:18px;padding:28px}
+.serv-card .sc-area{font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--purple);margin-bottom:10px;display:block}
+.serv-card h3{color:var(--purple-deep);font-size:17px;margin-bottom:8px}
+.serv-card p{color:var(--gray-700);font-size:13.5px;line-height:1.55;margin-bottom:14px}
+.serv-card .sc-impact{font-size:12.5px;color:var(--gray-900);background:#F0ECFA;border-left:3px solid var(--purple);border-radius:0 8px 8px 0;padding:10px 13px;line-height:1.45}
+.serv-card .sc-impact b{color:var(--purple-deep)}
+
+/* FUNNEL */
+.funnel{max-width:760px;margin:0 auto}
+.funnel-stage{display:grid;grid-template-columns:46px 1fr;gap:20px;align-items:center;margin-bottom:10px}
+.fbar{height:auto;background:linear-gradient(90deg,var(--purple),var(--cyan));border-radius:10px;padding:16px 22px;display:flex;justify-content:space-between;align-items:center;color:#0A0A0A}
+.fbar h4{color:#0A0A0A;font-size:15px;margin:0}
+.fbar .fdesc{font-size:12.5px;color:rgba(10,10,10,0.7);font-weight:500;text-align:right;max-width:62%}
+.fnum{width:46px;height:46px;border-radius:50%;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff;font-size:15px}
+.funnel-stage:nth-child(1) .fbar{width:100%}.funnel-stage:nth-child(2) .fbar{width:94%}
+.funnel-stage:nth-child(3) .fbar{width:88%}.funnel-stage:nth-child(4) .fbar{width:82%}
+.funnel-stage:nth-child(5) .fbar{width:76%}.funnel-stage:nth-child(6) .fbar{width:70%}
+.funnel-stage:nth-child(7) .fbar{width:64%}.funnel-stage:nth-child(8) .fbar{width:58%}
+@media(max-width:680px){.fbar{flex-direction:column;align-items:flex-start;gap:4px}.fbar .fdesc{text-align:left;max-width:100%}.funnel-stage .fbar{width:100%!important}}
+
+/* ROADMAP */
+.road-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:36px}
+@media(max-width:860px){.road-grid{grid-template-columns:1fr}}
+.road-phase{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:20px;padding:30px;position:relative}
+.road-phase .rp-tag{font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--cyan);margin-bottom:6px;display:block}
+.road-phase .rp-when{font-size:12.5px;color:var(--gray-500);margin-bottom:16px}
+.road-phase h3{color:#fff;font-size:19px;margin-bottom:14px}
+.road-phase ul{list-style:none}
+.road-phase li{font-size:13px;color:var(--gray-300);padding-left:18px;position:relative;margin-bottom:9px;line-height:1.5}
+.road-phase li::before{content:"";position:absolute;left:0;top:7px;width:7px;height:7px;border-radius:50%;background:var(--purple)}
+.road-traj{background:linear-gradient(135deg,#0a3833,var(--purple-deep));border:1px solid rgba(94,234,212,0.25);border-radius:20px;padding:30px 34px;display:flex;align-items:center;gap:30px;flex-wrap:wrap}
+.road-traj .rt-step{flex:1;min-width:120px}
+.road-traj .rt-step .v{font-size:26px;font-weight:800;color:#fff;letter-spacing:-0.02em}
+.road-traj .rt-step.tgt .v{color:var(--cyan)}
+.road-traj .rt-step .l{font-size:12px;color:var(--gray-300);margin-top:4px}
+.road-traj .rt-arrow{color:var(--cyan);font-size:22px}
+
+/* EQUIPO */
+.team-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.team-card{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:16px;padding:24px}
+.team-card h4{color:#fff;font-size:15px;margin-bottom:6px}
+.team-card .tc-role{font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--cyan);margin-bottom:10px;display:block}
+.team-card p{font-size:13px;line-height:1.5;color:var(--gray-300)}
+.team-note{margin-top:24px;font-size:13.5px;color:var(--gray-300);background:rgba(94,234,212,0.06);border:1px solid rgba(94,234,212,0.2);border-radius:14px;padding:20px 24px}
+.team-note strong{color:var(--cyan)}
+
+/* INVERSIÓN */
+.inv-intro{background:linear-gradient(135deg,var(--purple-deep),var(--purple));border-radius:20px;padding:30px 34px;margin-bottom:28px;color:#fff}
+.inv-intro p{color:rgba(255,255,255,0.9);font-size:15px;max-width:820px}
+.inv-table{background:#fff;border:1px solid #E5E5EA;border-radius:18px;overflow:hidden}
+.inv-row{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;padding:22px 28px;border-bottom:1px solid #F0F0F4}
+.inv-row:last-child{border-bottom:none}
+.inv-row .iv-info h4{color:var(--purple-deep);font-size:15.5px;margin-bottom:3px}
+.inv-row .iv-info p{color:var(--gray-500);font-size:12.5px;margin:0}
+.inv-amount{font-size:18px;font-weight:800;color:var(--purple-deep);letter-spacing:0.04em;white-space:nowrap;font-variant-numeric:tabular-nums}
+.inv-sub{background:#F7F5FC;padding:18px 28px;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--purple)}
+.inv-row.total{background:#FAFAFC}
+.inv-row.total .iv-info h4{font-size:17px}
+.inv-row.aparte .iv-info h4::after{content:"Se factura aparte";display:inline-block;margin-left:10px;font-size:10px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--cyan-deep);background:rgba(15,179,154,0.1);padding:3px 8px;border-radius:6px;vertical-align:middle}
+.inv-legend{margin-top:18px;font-size:12.5px;color:var(--gray-700)}
+
+/* PASOS */
+.pasos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0;background:#fff;border-radius:20px;border:1px solid #E5E5EA;overflow:hidden}
+.paso{padding:28px;border-right:1px solid #F0F0F4}
+.paso:last-child{border-right:none}
+@media(max-width:900px){.paso{border-right:none;border-bottom:1px solid #F0F0F4}.paso:last-child{border-bottom:none}}
+.paso-num{font-size:38px;font-weight:800;color:var(--purple);letter-spacing:-0.03em;line-height:1;margin-bottom:14px}
+.paso h4{font-size:16px;color:var(--purple-deep);margin-bottom:8px}
+.paso p{font-size:14px;line-height:1.55;color:var(--gray-700)}
+.section-cta{text-align:center;margin-top:52px}
+
+/* CREDS */
+.creds-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+@media(max-width:900px){.creds-grid{grid-template-columns:1fr}}
+.creds-stats{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.stat-card{border-radius:20px;padding:28px;aspect-ratio:1;display:flex;flex-direction:column;justify-content:space-between}
+.stat-card-1{background:linear-gradient(135deg,var(--purple-soft),var(--purple))}
+.stat-card-2{background:#0a3833;border:1px solid rgba(94,234,212,0.3)}
+.stat-card-3{background:var(--black-2);border:1px solid rgba(255,255,255,0.1)}
+.stat-card-4{background:#1a0a2e;border:1px solid rgba(167,139,250,0.3)}
+.stat-num{font-size:36px;font-weight:800;letter-spacing:-0.03em;line-height:1;color:#fff}
+.stat-num-cyan{color:var(--cyan)}.stat-num-purple{color:#A78BFA}
+.stat-label{font-size:14px;color:rgba(255,255,255,0.78);font-weight:500;line-height:1.45}
+.clientes-list{margin-top:60px;padding-top:44px;border-top:1px solid rgba(255,255,255,0.1)}
+.clientes-list .eyebrow{color:rgba(255,255,255,0.5)}
+.clientes-logos{display:flex;flex-wrap:wrap;gap:44px;margin-top:24px;align-items:center}
+.cliente-logo{font-size:17px;font-weight:700;letter-spacing:0.05em;color:rgba(255,255,255,0.7)}
+
+/* FOOTER */
+.footer{background:var(--black);padding:46px 0 30px;border-top:1px solid rgba(255,255,255,0.06)}
+.footer-grid{display:grid;grid-template-columns:1fr auto auto;gap:44px;align-items:center}
+@media(max-width:768px){.footer-grid{grid-template-columns:1fr}}
+.footer-logo p{font-size:13px;color:var(--gray-500);margin-top:8px}
+.footer-validity{padding:10px 18px;border-radius:10px;background:rgba(255,255,255,0.05);font-size:12px;color:var(--gray-300)}
+.footer-validity strong{display:block;color:#fff;font-size:14px;font-weight:600}
+.footer-contact{text-align:right}
+@media(max-width:768px){.footer-contact{text-align:left}}
+.footer-contact .label{font-size:11px;color:var(--gray-500);font-weight:600;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:6px}
+.footer-contact .email{color:#fff;font-weight:500;font-size:15px}
+.footer-contact .who{font-size:12px;color:var(--gray-500);margin-top:2px}
+</style>
+
+<!-- INVESTIGACIÓN DE MERCADO -->
+<section id="mercado" class="section section-darker">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Investigación de mercado</span>
+      <h2>El mercado no es el techo. La <span class="serif-accent">captura</span> sí.</h2>
+      <p>Estudiamos el mercado argentino de decoración personalizada, la competencia nacional e internacional y la oportunidad en España. La conclusión es contundente: hay muchísimo mercado disponible — el desafío de Frambuesa es capturarlo mejor, no encontrar más.</p>
+    </div>
+
+    <div class="mkt-grid">
+      <div class="mkt-card">
+        <h3>Tamaño del mercado (Argentina)</h3>
+        <p class="mkt-note">Wall décor personalizable. Estimación propia por triangulación de proxies — ver supuestos al pie.</p>
+        <div class="mkt-bar-row">
+          <div class="mbl"><span>TAM · Mercado total</span><strong>~$55.800M /año</strong></div>
+          <div class="mkt-track"><div class="mkt-fill" style="width:100%"></div></div>
+        </div>
+        <div class="mkt-bar-row">
+          <div class="mbl"><span>SAM · Personalizado + servicio</span><strong>~$19.500M /año</strong></div>
+          <div class="mkt-track"><div class="mkt-fill" style="width:35%"></div></div>
+        </div>
+        <div class="mkt-bar-row">
+          <div class="mbl"><span>Frambuesa hoy (~$240M /año)</span><strong>1,2% del SAM</strong></div>
+          <div class="mkt-track"><div class="mkt-fill" style="width:1.5%"></div></div>
+        </div>
+      </div>
+      <div class="mkt-card">
+        <h3>El 5x cabe dentro del mercado actual</h3>
+        <p class="mkt-note">Pasar de $20M a $100M mensuales = pasar de 1,2% a 6,2% del mercado que Frambuesa ya puede atender. Sin internacionalizar ni inventar demanda.</p>
+        <div class="share-meter">
+          <div class="sm-track"><div class="sm-target"></div><div class="sm-now"></div></div>
+          <div class="sm-legend"><span class="now">● Hoy · 1,2%</span><span class="tgt">Objetivo 5x · 6,2% ┊</span></div>
+        </div>
+        <p style="font-size:13.5px;color:var(--gray-300);margin-top:22px;line-height:1.6">El sector crece a ~6–9% anual en dólares, con el ecommerce argentino de “hogar y decoración” entre los rubros de mayor crecimiento (+60% nominal en 2025, por encima de la inflación). El viento de cola existe; la oportunidad es de ejecución.</p>
+      </div>
+    </div>
+
+    <div class="mkt-grid">
+      <div class="mkt-card">
+        <h3>Comunidad vs. competencia</h3>
+        <p class="mkt-note">Seguidores en Instagram (estimado por datos indexados, jun. 2026). El activo más difícil de copiar de Frambuesa.</p>
+        <div class="comp-chart">
+          <div class="comp-row me"><span class="cn">Frambuesa</span><div class="comp-track"><div class="comp-fill" style="width:100%"></div></div><span class="cv">185K</span></div>
+          <div class="comp-row"><span class="cn">Disart Gráfica</span><div class="comp-track"><div class="comp-fill" style="width:58%"></div></div><span class="cv">107K</span></div>
+          <div class="comp-row"><span class="cn">Ojo de Pez Estudio</span><div class="comp-track"><div class="comp-fill" style="width:53%"></div></div><span class="cv">98K</span></div>
+          <div class="comp-row"><span class="cn">Push Vinilos</span><div class="comp-track"><div class="comp-fill" style="width:52%"></div></div><span class="cv">97K</span></div>
+          <div class="comp-row"><span class="cn">Anima Deco</span><div class="comp-track"><div class="comp-fill" style="width:31%"></div></div><span class="cv">57K</span></div>
+        </div>
+        <p style="font-size:13px;color:var(--gray-300);margin-top:18px;line-height:1.55">Frambuesa lidera la comunidad del rubro por amplio margen. Es una audiencia propia, gratis de re-impactar, que hoy no se usa como motor de ventas.</p>
+      </div>
+      <div class="mkt-card">
+        <h3>Dónde puede ganar Frambuesa</h3>
+        <p class="mkt-note">Mapa de posicionamiento. El cuadrante premium-accesible + servicio integral está vacío — y es donde Frambuesa tiene un foso real.</p>
+        <div class="quadrant">
+          <span class="qaxis-y">Servicio integral</span>
+          <div class="quad-area">
+            <span class="qdot me" style="left:72%;bottom:74%">Frambuesa</span>
+            <span class="qdot" style="left:78%;bottom:34%">Anima Deco</span>
+            <span class="qdot" style="left:30%;bottom:40%">Petit Papel</span>
+            <span class="qdot" style="left:50%;bottom:8%">MercadoLibre</span>
+          </div>
+          <div class="qends"><span>Commodity</span><span>Diseño de autor</span></div>
+          <div class="qaxis-x">Eje: tipo de oferta</div>
+        </div>
+        <p style="font-size:13px;color:var(--gray-300);margin-top:16px;line-height:1.55"><strong style="color:#fff">Foso defendible:</strong> comunidad masiva + instalación nacional propia + producción a medida. Nadie más tiene los tres.</p>
+      </div>
+    </div>
+
+    <h3 style="color:#fff;margin:40px 0 4px;font-size:22px">Cinco lecturas que cambian las prioridades</h3>
+    <p style="color:var(--gray-300);font-size:15px;margin-bottom:8px;max-width:760px">Insights que surgen del cruce de mercado, competencia y negocio — varios de ellos, oportunidades que la competencia no está viendo.</p>
+    <div class="insights">
+      <div class="insight"><span class="inum">01</span><h4>El B2B es la palanca matemática del 5x</h4><p>Con tickets B2C de $40–60K, el volumen para llegar a $100M es inviable. Con proyectos de arquitectos, desarrollos y hotelería ($1–5M), la ecuación cierra. Y ningún competidor local lo trabaja en serio.</p></div>
+      <div class="insight"><span class="inum">02</span><h4>“Renová sin obra” es un argumento de plata</h4><p>Refaccionar un ambiente cuesta millones; un mural lo transforma al 2–3% de ese costo. Es un posicionamiento racional-económico potente que casi nadie usa en el rubro.</p></div>
+      <div class="insight"><span class="inum">03</span><h4>La tendencia 2026 empuja el ticket alto</h4><p>El maximalismo y el “mural protagonista” mueven la demanda hacia pared completa — justo el producto de mayor margen de Frambuesa — y en contra del vinilo barato.</p></div>
+      <div class="insight"><span class="inum">04</span><h4>El “antes/después” es growth subvaluado</h4><p>Es el mejor formato del rubro, es gratis de producir y baja el costo de adquisición orgánico. Un foso que la competencia, fragmentada, no construye.</p></div>
+    </div>
+
+    <p class="mkt-disclaimer"><strong style="color:var(--gray-300)">Supuestos y método.</strong> El nicho no tiene reportes país-específicos para Argentina, por lo que el sizing se construyó por triangulación de proxies (hogares según Censo 2022 INDEC, penetración anual estimada y ticket promedio de precios reales de mercado), a un tipo de cambio de referencia de ~$1.450/USD. Las cifras marcadas como estimación son propias y están para ordenar decisiones, no como dato cerrado. Seguidores y precios de competencia verificados a junio 2026 sobre fuentes públicas. Fuentes: INDEC, CACE, Fortune Business Insights, Grand View Research, Statista, 6W Research.</p>
+  </div>
+</section>
+<!-- OBJETIVOS -->
+<section class="section section-dark">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Objetivos</span>
+      <h2>A dónde vamos, y en qué <span class="serif-accent">orden</span></h2>
+      <p>Objetivos de negocio — no solo métricas digitales. Cada etapa habilita la siguiente: primero se tapa la fuga, después se escala, y por último se expande.</p>
+    </div>
+    <div class="obj-grid">
+      <div class="obj-card obj-1">
+        <div class="obj-h">Corto plazo · 0–3 meses</div>
+        <h3>Detener la fuga</h3>
+        <ul>
+          <li>Subir la tasa de cierre de 0,4% hacia el 3–5% optimizando el embudo comercial</li>
+          <li>Encender Google (Search + Shopping) para capturar demanda activa</li>
+          <li>Reestructurar la pauta de Meta: de “mensajes” a conversión + remarketing</li>
+          <li>Capacitación y consultoría comercial sobre el CRM que ya tienen, ordenando la captura de datos</li>
+        </ul>
+      </div>
+      <div class="obj-card obj-2">
+        <div class="obj-h">Mediano plazo · 3–6 meses</div>
+        <h3>Escalar con sistema</h3>
+        <ul>
+          <li>Lanzar el canal B2B / profesional (Frambuesa Pro) como nueva línea de ingresos</li>
+          <li>Construir el sistema de marca: manual, identidad y dirección creativa</li>
+          <li>Poner a producir la máquina de contenido (antes/después, procesos, testimonios)</li>
+          <li>Acercar la facturación a $50–60M con CAC en baja</li>
+        </ul>
+      </div>
+      <div class="obj-card obj-3">
+        <div class="obj-h">Largo plazo · 6–12+ meses</div>
+        <h3>Consolidar y expandir</h3>
+        <ul>
+          <li>Consolidar el run-rate de ~$100M mensuales de forma rentable y sostenible</li>
+          <li>Lanzar línea removible / self-install (mayor margen y escala)</li>
+          <li>Testear España con bajo riesgo</li>
+          <li>Convertir a Frambuesa en la marca de referencia del rubro en Argentina</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ESTRATEGIA INTEGRAL -->
+<section id="estrategia" class="section section-light">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Estrategia integral 360°</span>
+      <h2>Seis movimientos, una lógica</h2>
+      <p>No es una lista de servicios. Es una secuencia de decisiones de negocio, cada una justificada por lo que mueve la aguja. Esto es lo que haríamos, y por qué.</p>
+    </div>
+
+    <div class="callout">
+      Llegar a $100M no exige multiplicar por cinco la inversión. Exige <strong>cerrar mejor, diversificar los canales y abrir el negocio B2B.</strong> Con la tasa de cierre, la calidad del lead y el ticket trabajados, el objetivo se alcanza con cerca del doble de pauta — no el quíntuple. Por eso esta estrategia empieza por el proceso comercial, no por el presupuesto de medios.
+    </div>
+
+    <div class="strat-list">
+      <div class="strat-item">
+        <div class="strat-num">1</div>
+        <div class="strat-body">
+          <h3>Tapar la fuga antes de abrir la canilla</h3>
+          <p>Optimizamos el embudo comercial y el ecommerce: configurador de medidas→precio, prueba social on-site, scripts y tiempos de respuesta, y un proceso que califica al lead en vez de cotizar a mano uno por uno.</p>
+          <span class="strat-why">Por qué: sumar pauta a un embudo que cierra al 0,4% es quemar plata. Cada punto de cierre vale más que cada peso de medios.</span>
+        </div>
+      </div>
+      <div class="strat-item">
+        <div class="strat-num">2</div>
+        <div class="strat-body">
+          <h3>Diversificar la demanda con Google y SEO</h3>
+          <p>Hoy toda la demanda activa — gente que busca “comprar empapelado” o “murales personalizados” — se la lleva MercadoLibre. Entramos con Search, Shopping y una base de SEO para capturar a quien ya quiere comprar.</p>
+          <span class="strat-why">Por qué: Meta crea demanda; Google la cosecha. Sin el canal de intención, falta la mitad del embudo y todo depende de un solo proveedor.</span>
+        </div>
+      </div>
+      <div class="strat-item">
+        <div class="strat-num">3</div>
+        <div class="strat-body">
+          <h3>Abrir el canal B2B / profesional</h3>
+          <p>Creamos “Frambuesa Pro”: landing, catálogo, muestras, condiciones comerciales y prospección hacia arquitectos, interioristas, constructoras y desarrollos. Convertimos a los profesionales en una fuerza de venta recurrente.</p>
+          <span class="strat-why">Por qué: es la palanca matemática del 5x. Tickets de $1–5M cambian la ecuación, y es un espacio en blanco que nadie en el rubro ocupa.</span>
+        </div>
+      </div>
+      <div class="strat-item">
+        <div class="strat-num">4</div>
+        <div class="strat-body">
+          <h3>Construir la marca como sistema</h3>
+          <p>Manual de marca, identidad visual consolidada (incluido el color frambuesa que hoy no usan), lineamientos y un posicionamiento claro: diseño a medida con instalación garantizada en todo el país.</p>
+          <span class="strat-why">Por qué: una marca sin sistema no sostiene ticket alto ni se diferencia. La marca es hoy el techo del crecimiento, no el producto.</span>
+        </div>
+      </div>
+      <div class="strat-item">
+        <div class="strat-num">5</div>
+        <div class="strat-body">
+          <h3>Convertir el producto en máquina de contenido</h3>
+          <p>Dirección creativa + producción audiovisual con filmmakers, distribuida donde el formato rinde: Instagram y, sobre todo, TikTok. Capitalizamos instalaciones, transformaciones, procesos y testimonios. El “antes/después” deja de ser un posteo y pasa a ser un activo de conversión y de alcance orgánico.</p>
+          <span class="strat-why">Por qué: es el formato que más convierte en el rubro y baja el costo de adquisición orgánico. El material ya existe; falta dirección.</span>
+        </div>
+      </div>
+      <div class="strat-item">
+        <div class="strat-num">6</div>
+        <div class="strat-body">
+          <h3>Dirección estratégica permanente</h3>
+          <p>Acompañamiento mensual, reuniones de negocio, lectura de datos y decisiones conjuntas sobre comercial y comunicación. Menos horas de coordinación, más horas de pensamiento estratégico.</p>
+          <span class="strat-why">Por qué: lo que Frambuesa pidió es un socio, no un ejecutor. El valor diferencial está en pensar el negocio con ustedes, no en entregar tareas.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- SERVICIOS -->
+<section id="servicios" class="section section-light" style="background:#EFEFF3">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Servicios propuestos</span>
+      <h2>Lo que ponemos a trabajar</h2>
+      <p>Cada servicio existe porque resuelve algo concreto del negocio. Debajo de cada uno, cómo aporta directamente al objetivo de facturación.</p>
+    </div>
+    <div class="serv-grid">
+      <div class="serv-card">
+        <span class="sc-area">Dirección estratégica</span>
+        <h3>Dirección estratégica &amp; consultoría comercial</h3>
+        <p>Acompañamiento mensual, reuniones de negocio, benchmark continuo, lectura de datos y optimización del proceso comercial: CRM, scripts, tiempos de respuesta y calidad de lead.</p>
+        <div class="sc-impact"><b>Impacto:</b> mover el cierre de 0,4% a 5–9% es lo que más factura — más que cualquier peso extra de pauta.</div>
+      </div>
+      <div class="serv-card">
+        <span class="sc-area">Paid media</span>
+        <h3>Meta Ads reestructurado</h3>
+        <p>Pasamos de “mensajes” a un funnel completo: campañas de conversión y compra, Advantage+ Shopping con catálogo, remarketing dinámico y mensajes calificados. Públicos separados para consumidor final y profesionales.</p>
+        <div class="sc-impact"><b>Impacto:</b> recupera al 99,6% que hoy consulta y no compra, usando los 185K como audiencia de retargeting.</div>
+      </div>
+      <div class="serv-card">
+        <span class="sc-area">Paid media</span>
+        <h3>Google Ads — Search &amp; Shopping</h3>
+        <p>Entrada al canal de intención: Search sobre términos transaccionales y de marca, Performance Max y Shopping con feed del ecommerce, y campañas específicas para búsquedas de proyecto / B2B.</p>
+        <div class="sc-impact"><b>Impacto:</b> captura demanda caliente que hoy se lleva MercadoLibre; suma la mitad del embudo que falta.</div>
+      </div>
+      <div class="serv-card">
+        <span class="sc-area">SEO</span>
+        <h3>SEO &amp; arquitectura de contenidos</h3>
+        <p>Auditoría técnica, optimización on-page, arquitectura de categorías y contenido para posicionar términos del rubro de alta intención. Tráfico que no se paga cada vez que entra.</p>
+        <div class="sc-impact"><b>Impacto:</b> baja el costo de adquisición en el tiempo y genera demanda orgánica recurrente.</div>
+      </div>
+      <div class="serv-card">
+        <span class="sc-area">Conversión</span>
+        <h3>CRO &amp; optimización del ecommerce</h3>
+        <p>Sobre Shopify (ya es la plataforma correcta): configurador de medidas→precio, reviews y prueba social, WhatsApp integrado, recuperación de carrito y preparación de Shopify Markets para España.</p>
+        <div class="sc-impact"><b>Impacto:</b> mueve el 70–80% de pedidos estándar a checkout directo y libera al equipo para proyectos de alto ticket.</div>
+      </div>
+      <div class="serv-card">
+        <span class="sc-area">Comercial &amp; CRM</span>
+        <h3>Consultoría comercial, email marketing &amp; automatizaciones</h3>
+        <p>Ya tienen CRM: sumamos acompañamiento, capacitación y consultoría comercial al equipo para sacarle el jugo, más los flujos automáticos —bienvenida, nurturing, recuperación de carrito, postventa y reactivación— que hoy no están corriendo.</p>
+        <div class="sc-impact"><b>Impacto:</b> convierte un activo hoy desperdiciado en recompra y ventas recurrentes sin costo de medios.</div>
+      </div>
+      <div class="serv-card">
+        <span class="sc-area">Contenido</span>
+        <h3>Community &amp; dirección creativa</h3>
+        <p>Calendario, gestión de comunidad, creatividades, historias y reels con dirección creativa real. Cinco pilares de contenido: transformación, proceso, instalación, testimonio y tendencias.</p>
+        <div class="sc-impact"><b>Impacto:</b> alimenta la pauta con creatividades que convierten y construye marca a la vez.</div>
+      </div>
+      <div class="serv-card">
+        <span class="sc-area">Audiovisual</span>
+        <h3>Producción audiovisual con filmmakers</h3>
+        <p>Jornadas de grabación, contenido institucional, comercial y para anuncios, más UGC cuando conviene. Capturamos el “antes/después”, las instalaciones y el backstage que hoy se pierden.</p>
+        <div class="sc-impact"><b>Impacto:</b> el formato de mayor conversión del rubro, producido con intención y sistema de marca.</div>
+      </div>
+      <div class="serv-card">
+        <span class="sc-area">TikTok</span>
+        <h3>Estrategia de TikTok</h3>
+        <p>Cuenta propia con línea editorial nativa: transformaciones en formato corto, “satisfying” de instalación, tendencias de deco y sonidos del momento. Ritmo de publicación alto, edición ágil y aprovechamiento del “antes/después” para alcance orgánico — más TikTok Ads cuando el contenido ya probó tracción.</p>
+        <div class="sc-impact"><b>Impacto:</b> el rubro deco-hogar es de los que mejor performan en TikTok; es alcance orgánico de bajo costo que baja el CAC y abre un público nuevo y más joven.</div>
+      </div>
+      <div class="serv-card">
+        <span class="sc-area">Branding · cotizado aparte</span>
+        <h3>Manual de marca &amp; identidad visual</h3>
+        <p>Manual de marca completo, identidad visual para redes y anuncios, lineamientos gráficos y el sistema dual B2C / B2B bajo una sola marca paraguas. Se cotiza por separado, como pidieron.</p>
+        <div class="sc-impact"><b>Impacto:</b> da la base que sostiene el ticket alto y diferencia a Frambuesa de la competencia.</div>
+      </div>
+      <div class="serv-card">
+        <span class="sc-area">Nuevo canal</span>
+        <h3>Frambuesa Pro — canal B2B</h3>
+        <p>Diseño y puesta en marcha del programa para profesionales: landing dedicada, catálogo descargable, muestras, condiciones comerciales y prospección hacia estudios, constructoras y desarrollos.</p>
+        <div class="sc-impact"><b>Impacto:</b> nueva línea de ingresos de mayor ticket y recompra — la palanca central del 5x.</div>
+      </div>
+      <div class="serv-card">
+        <span class="sc-area">Analítica</span>
+        <h3>Analítica, reporting &amp; growth</h3>
+        <p>Tablero único con los KPIs que importan por canal (CPL calificado, CAC, tasa de cierre, ROAS), reporting mensual claro y experimentación continua para escalar lo que funciona.</p>
+        <div class="sc-impact"><b>Impacto:</b> convierte el marketing en decisiones de negocio medibles, no en gasto a ciegas.</div>
+      </div>
+      <div class="serv-card">
+        <span class="sc-area">Expansión</span>
+        <h3>Internacionalización (fase test)</h3>
+        <p>Diagnóstico de viabilidad para España: producción/logística local, Shopify Markets (multi-moneda e idioma) y un test de demanda de bajo costo antes de invertir en escala.</p>
+        <div class="sc-impact"><b>Impacto:</b> abre el mercado externo sin quemar caja — primero se valida, después se escala.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EMBUDO DE CRECIMIENTO -->
+<section class="section section-purple-deep">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Embudo de crecimiento</span>
+      <h2 style="color:#fff">De la atención al <span class="serif-accent">referido</span></h2>
+      <p>Hoy el embudo se rompe en “Consulta”. Lo reconstruimos completo: cada etapa con su rol, sus herramientas y el punto de fuga que tapamos.</p>
+    </div>
+    <div class="funnel">
+      <div class="funnel-stage"><div class="fnum">1</div><div class="fbar"><h4>Atracción</h4><span class="fdesc">Meta + Google + SEO + orgánico (Instagram &amp; TikTok)</span></div></div>
+      <div class="funnel-stage"><div class="fnum">2</div><div class="fbar"><h4>Interés</h4><span class="fdesc">Antes/después, reels, showroom, catálogo</span></div></div>
+      <div class="funnel-stage"><div class="fnum">3</div><div class="fbar"><h4>Consideración</h4><span class="fdesc">Reviews, casos, configurador de precio</span></div></div>
+      <div class="funnel-stage"><div class="fnum">4</div><div class="fbar"><h4>Consulta</h4><span class="fdesc">Lead calificado, no “¿precio?” — aquí estaba la fuga</span></div></div>
+      <div class="funnel-stage"><div class="fnum">5</div><div class="fbar"><h4>Venta</h4><span class="fdesc">Checkout directo o cierre comercial con script</span></div></div>
+      <div class="funnel-stage"><div class="fnum">6</div><div class="fbar"><h4>Fidelización</h4><span class="fdesc">Postventa, instalación impecable, email</span></div></div>
+      <div class="funnel-stage"><div class="fnum">7</div><div class="fbar"><h4>Recompra</h4><span class="fdesc">CRM, nuevos ambientes, novedades, B2B</span></div></div>
+      <div class="funnel-stage"><div class="fnum">8</div><div class="fbar"><h4>Referidos</h4><span class="fdesc">UGC, programa profesionales, comunidad</span></div></div>
+    </div>
+  </div>
+</section>
+<!-- ROADMAP -->
+<section id="roadmap" class="section section-dark">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Roadmap</span>
+      <h2>Cómo evoluciona el negocio, mes a <span class="serif-accent">mes</span></h2>
+      <p>No es un cronograma de tareas: es la evolución del negocio en tres fases. Cada una deja una capacidad instalada que la siguiente aprovecha.</p>
+    </div>
+    <div class="road-grid">
+      <div class="road-phase">
+        <span class="rp-tag">Fase 1 · Fundaciones</span>
+        <div class="rp-when">Mes 1 a 3</div>
+        <h3>Tapar la fuga</h3>
+        <ul>
+          <li>Configurador, reviews y WhatsApp en el ecommerce</li>
+          <li>Capacitación comercial y captura de datos en marcha sobre el CRM existente</li>
+          <li>Meta reestructurado + Google Search/Shopping en vivo</li>
+          <li>Proceso comercial y scripts de calificación</li>
+          <li>Tablero de KPIs y baseline real</li>
+        </ul>
+      </div>
+      <div class="road-phase">
+        <span class="rp-tag">Fase 2 · Escala</span>
+        <div class="rp-when">Mes 4 a 6</div>
+        <h3>Escalar con sistema</h3>
+        <ul>
+          <li>Manual de marca e identidad consolidada</li>
+          <li>Frambuesa Pro: lanzamiento del canal B2B</li>
+          <li>Máquina de contenido y producción audiovisual</li>
+          <li>Email marketing y automatizaciones activas</li>
+          <li>Escalado de pauta sobre lo que ya probó ROAS</li>
+        </ul>
+      </div>
+      <div class="road-phase">
+        <span class="rp-tag">Fase 3 · Consolidación</span>
+        <div class="rp-when">Mes 7 a 12+</div>
+        <h3>Consolidar y expandir</h3>
+        <ul>
+          <li>Run-rate de ~$100M mensuales sostenido</li>
+          <li>SEO maduro generando tráfico orgánico</li>
+          <li>Línea removible / self-install</li>
+          <li>Test de demanda en España con bajo riesgo</li>
+          <li>Optimización continua y growth</li>
+        </ul>
+      </div>
+    </div>
+    <div class="road-traj">
+      <div class="rt-step"><div class="v">$20M</div><div class="l">Hoy · mes 0</div></div>
+      <div class="rt-arrow">→</div>
+      <div class="rt-step"><div class="v">~$50M</div><div class="l">Fase 2 · mes 6</div></div>
+      <div class="rt-arrow">→</div>
+      <div class="rt-step tgt"><div class="v">~$100M</div><div class="l">Fase 3 · mes 12</div></div>
+      <div class="rt-step" style="flex:2;min-width:220px"><div class="l" style="font-size:13px;color:rgba(255,255,255,0.8);line-height:1.5">Trayectoria objetivo. Supone trabajar cierre, calidad de lead y ticket en paralelo a la pauta — no solo más presupuesto de medios.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- EQUIPO -->
+<section class="section section-darker">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Equipo asignado</span>
+      <h2>Quién trabaja en <span class="serif-accent">Frambuesa</span></h2>
+      <p>Un equipo multidisciplinario coordinado por una dirección estratégica que conoce el negocio. Más pensamiento, menos coordinación administrativa.</p>
+    </div>
+    <div class="team-grid">
+      <div class="team-card"><span class="tc-role">Dirección estratégica</span><h4>General Management</h4><p>Lidera el negocio con ustedes: estrategia, decisiones comerciales y de medios, y la visión de crecimiento integral.</p></div>
+      <div class="team-card"><span class="tc-role">Project Manager</span><h4>Coordinación</h4><p>Mantiene el plan en movimiento y los entregables a tiempo, con carga acotada para priorizar la estrategia.</p></div>
+      <div class="team-card"><span class="tc-role">Paid Media</span><h4>Especialista Meta &amp; Google</h4><p>Diseña y optimiza las campañas, el remarketing y el Shopping. Dueño del ROAS y del costo por lead calificado.</p></div>
+      <div class="team-card"><span class="tc-role">SEO / SEM</span><h4>Especialista en búsqueda</h4><p>Arquitectura, contenido y posicionamiento orgánico, más la estrategia de keywords del rubro.</p></div>
+      <div class="team-card"><span class="tc-role">Consultoría comercial</span><h4>Especialista en conversión</h4><p>Rediseña el embudo, los scripts y el CRM. Convierte volumen de consultas en ventas cerradas.</p></div>
+      <div class="team-card"><span class="tc-role">Diseño &amp; branding</span><h4>Director de arte</h4><p>Sistema visual, identidad y piezas. Construye la marca que sostiene el ticket alto.</p></div>
+      <div class="team-card"><span class="tc-role">Contenido</span><h4>Content &amp; Community Manager</h4><p>Calendario, copy, gestión de comunidad y dirección de los pilares de contenido.</p></div>
+      <div class="team-card"><span class="tc-role">Audiovisual</span><h4>Filmmaker &amp; Editor</h4><p>Jornadas de grabación y postproducción del “antes/después”, procesos y testimonios.</p></div>
+      <div class="team-card"><span class="tc-role">Datos</span><h4>Analítica</h4><p>Tablero, medición y reporting. Traduce los números en próximas decisiones.</p></div>
+    </div>
+    <div class="team-note"><strong>Cómo trabajamos:</strong> reducimos las horas de coordinación administrativa y las reinvertimos en dirección estratégica. El diferencial de Popcorn no es ejecutar tareas — es pensar el negocio junto a ustedes, de forma permanente.</div>
+  </div>
+</section>
+<!-- INVERSIÓN -->
+<section id="inversion" class="section section-light">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Inversión</span>
+      <h2>Estructura de inversión</h2>
+      <p>El plan es modular: puede arrancar completo o por bloques. Los valores se completan en conjunto según el alcance que definan — la estructura ya está armada.</p>
+    </div>
+
+    <div class="inv-intro">
+      <p>Recomendamos arrancar por la Fase 1 (Fundaciones), donde cada peso rinde más: tapar la fuga del embudo multiplica el resultado de todo lo que viene después. La inversión en medios (pauta) se factura aparte de los honorarios de gestión, para mantener total transparencia.</p>
+    </div>
+
+    <div class="inv-table">
+      <div class="inv-sub">Dirección &amp; gestión</div>
+      <div class="inv-row"><div class="iv-info"><h4>Dirección estratégica &amp; consultoría comercial</h4><p>Acompañamiento mensual, reuniones de negocio, optimización del embudo y CRM</p></div><div class="inv-amount">$ __________</div></div>
+
+      <div class="inv-sub">Performance &amp; búsqueda</div>
+      <div class="inv-row"><div class="iv-info"><h4>Gestión de Paid Media — Meta &amp; Google</h4><p>Estructura de campañas, remarketing, Shopping y optimización continua</p></div><div class="inv-amount">$ __________</div></div>
+      <div class="inv-row"><div class="iv-info"><h4>SEO &amp; arquitectura de contenidos</h4><p>Auditoría, optimización on-page y posicionamiento orgánico</p></div><div class="inv-amount">$ __________</div></div>
+
+      <div class="inv-sub">Conversión &amp; datos</div>
+      <div class="inv-row"><div class="iv-info"><h4>CRO &amp; optimización del ecommerce (Shopify)</h4><p>Configurador, reviews, recuperación de carrito y Shopify Markets</p></div><div class="inv-amount">$ __________</div></div>
+      <div class="inv-row"><div class="iv-info"><h4>CRM, email marketing &amp; automatizaciones</h4><p>Implementación de CRM y flujos automáticos de nurturing y postventa</p></div><div class="inv-amount">$ __________</div></div>
+      <div class="inv-row"><div class="iv-info"><h4>Analítica, reporting &amp; growth</h4><p>Tablero de KPIs, reporting mensual y experimentación</p></div><div class="inv-amount">$ __________</div></div>
+
+      <div class="inv-sub">Contenido &amp; producción</div>
+      <div class="inv-row"><div class="iv-info"><h4>Community &amp; dirección creativa</h4><p>Calendario, gestión de comunidad, creatividades, historias y reels</p></div><div class="inv-amount">$ __________</div></div>
+      <div class="inv-row"><div class="iv-info"><h4>Estrategia y gestión de TikTok</h4><p>Línea editorial nativa, edición de video corto y crecimiento orgánico</p></div><div class="inv-amount">$ __________</div></div>
+      <div class="inv-row"><div class="iv-info"><h4>Producción audiovisual con filmmakers</h4><p>Jornadas de grabación, edición y contenido para anuncios y redes</p></div><div class="inv-amount">$ __________</div></div>
+
+      <div class="inv-sub">Nuevo canal</div>
+      <div class="inv-row"><div class="iv-info"><h4>Frambuesa Pro — puesta en marcha del canal B2B</h4><p>Landing, catálogo, muestras, condiciones y prospección profesional</p></div><div class="inv-amount">$ __________</div></div>
+
+      <div class="inv-sub">Branding · se cotiza por separado</div>
+      <div class="inv-row aparte"><div class="iv-info"><h4>Manual de marca &amp; sistema de identidad</h4><p>Manual completo, identidad para redes y anuncios, lineamientos y sistema dual B2C/B2B</p></div><div class="inv-amount">$ __________</div></div>
+
+      <div class="inv-sub">Inversión en medios estimada</div>
+      <div class="inv-row aparte"><div class="iv-info"><h4>Pauta publicitaria (Meta + Google)</h4><p>Presupuesto de medios. No son honorarios: va directo a las plataformas</p></div><div class="inv-amount">$ __________</div></div>
+
+    </div>
+    <p class="inv-legend">Valores a completar en conjunto. Honorarios mensuales sin IVA. La pauta y el Manual de Marca se cotizan y facturan por separado, como se acordó.</p>
+  </div>
+</section>
+
+<!-- PRÓXIMOS PASOS -->
+<section id="contacto" class="section section-light" style="background:#EFEFF3">
+  <div class="container">
+    <div class="section-header center">
+      <span class="eyebrow">Próximos pasos</span>
+      <h2>Un onboarding ordenado</h2>
+      <p>Así arrancamos. Sin fricción, con un plan claro desde el día uno.</p>
+    </div>
+    <div class="pasos-grid">
+      <div class="paso"><div class="paso-num">01</div><h4>Reunión de alineación</h4><p>Repasamos la propuesta, definimos los bloques de arranque y cerramos el alcance y la inversión.</p></div>
+      <div class="paso"><div class="paso-num">02</div><h4>Kick-off &amp; accesos</h4><p>Levantamos accesos (Shopify, Meta, Google, analítica), materiales y baseline real de métricas.</p></div>
+      <div class="paso"><div class="paso-num">03</div><h4>Quick wins de Fase 1</h4><p>En las primeras semanas atacamos las fugas de mayor impacto: configurador, reviews, Google y CRM.</p></div>
+      <div class="paso"><div class="paso-num">04</div><h4>Ritmo de socios</h4><p>Reuniones estratégicas mensuales, tablero siempre a la vista y decisiones de negocio en conjunto.</p></div>
+    </div>
+    <div class="section-cta">
+      <a href="mailto:sol@somospopcorn.com" class="btn btn-primary" style="font-size:16px;padding:16px 32px">Escribinos &rarr;</a>
+      <p style="margin-top:18px;font-size:13px;color:var(--gray-500)">sol@somospopcorn.com · Propuesta válida hasta el 11 de julio de 2026</p>
+    </div>
+  </div>
+</section>
+
+<!-- CREDENCIALES -->
+<section class="section section-dark">
+  <div class="container">
+    <div class="creds-grid">
+      <div>
+        <span class="eyebrow">Somos Popcorn</span>
+        <h2>No somos ejecutores.<br>Somos socios <span class="serif-accent">estratégicos.</span></h2>
+        <p style="margin-top:24px">Agencia 360 de marketing digital y producción audiovisual con base en Buenos Aires, con <strong style="color:#fff">más de 15 años acompañando a empresas</strong> de Argentina y la región.</p>
+        <p style="margin-top:18px">Combinamos estrategia de negocio, performance, marca y producción. No solo hacemos que las cosas se vean bien — <strong style="color:#fff">nos aseguramos de que vendan.</strong></p>
+      </div>
+      <div class="creds-stats">
+        <div class="stat-card stat-card-1"><div class="stat-num">15+</div><div class="stat-label">años en el mercado<br>digital argentino</div></div>
+        <div class="stat-card stat-card-2"><div class="stat-num stat-num-cyan">360°</div><div class="stat-label">estrategia, performance,<br>marca y audiovisual</div></div>
+        <div class="stat-card stat-card-3"><div class="stat-num">160+</div><div class="stat-label">marcas acompañadas<br>a lo largo de los años</div></div>
+        <div class="stat-card stat-card-4"><div class="stat-num stat-num-purple">CR</div><div class="stat-label">creatividad con<br>identidad propia</div></div>
+      </div>
+    </div>
+    <div class="clientes-list">
+      <span class="eyebrow">Algunos clientes que confiaron en nosotros</span>
+      <div class="clientes-logos">
+        <span class="cliente-logo">Localiza Rent a Car</span>
+        <span class="cliente-logo">Swiss Medical</span>
+        <span class="cliente-logo">Samsung</span>
+        <span class="cliente-logo">Kanji</span>
+        <span class="cliente-logo">Hospital Austral</span>
+        <span class="cliente-logo">Bosch</span>
+        <span class="cliente-logo">Telecom</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-logo">
+        <div class="logo" role="img" aria-label="Popcorn"></div>
+        <p>Agencia de marketing digital y producción audiovisual · Buenos Aires</p>
+      </div>
+      <div class="footer-validity">
+        <span>Propuesta válida hasta</span>
+        <strong>11 de julio de 2026</strong>
+      </div>
+      <div class="footer-contact">
+        <div class="label">Contacto directo</div>
+        <div class="email">sol@somospopcorn.com</div>
+        <div class="who">Dirección Estratégica · Popcorn</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
